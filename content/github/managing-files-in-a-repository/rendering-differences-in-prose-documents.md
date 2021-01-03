@@ -58,8 +58,10 @@ Some pull requests involve a large number of changes with large, complex documen
 
 You can still use the source view to analyze and comment on changes.
 
-### Viewing HTML elements
+### Viewing HTML elem
+ents
 
 We don't directly support rendered views of commits to HTML documents. Some formats, such as Markdown, let you embed arbitrary HTML in a document. When these documents are shown on {% data variables.product.product_name %}, some of that embedded HTML can be shown in a preview, while some (like an embedded YouTube video) cannot.
+
 
 In general, rendered views of changes to a document containing embedded HTML will show changes to the elements that are supported in {% data variables.product.product_name %}'s view of the document. Changes to documents containing embedded HTML should always be reviewed in both the rendered and source views for completeness.
